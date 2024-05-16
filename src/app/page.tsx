@@ -1,4 +1,3 @@
-'use client'
 import Products from "../../components/Products";
 
 export default function Home() {
@@ -13,7 +12,8 @@ export default function Home() {
         </h3>
 
         <div className="mt-32 mb-32 flex flex-row text-center gap-4 justify-center">
-        <Products submitTarget="/checkout" enabled={true} />
+          {/* Use lowercase `products` and remove the curly braces around `Products` */}
+          <Products products={products} />
         </div>
       </div>
     </main>
