@@ -24,7 +24,7 @@ export default function Products({ submitTarget, isCheckoutEnabled }: Props) {
                 <p className="text-sm text-gray-800">{product.location}</p>
                 <p className="text-sm text-gray-800">{product.tiktokUrl}</p>
                 <p className="my-4">
-                  <span className="mt-4 text-xl font-bold">{product.priceSol} SOL</span>
+                  <span className="mt-4 text-xl font-bold">{product.priceSol}$SOL</span>
                 </p>
                 <div className="mt-1">
                   <NumberInput name={product.id} formRef={formRef} />
