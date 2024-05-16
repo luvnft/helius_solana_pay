@@ -21,6 +21,8 @@ export default function Products({ submitTarget, enabled }: Props) {
                         <Image src={product.imageUrl} width={200} height={200} alt={product.name}/>
                         <h3 className="text-2xl font-bold">{product.name}</h3>
                         <p className="text-sm text-gray-800">{product.description}</p>
+                        <p className="text-sm text-gray-800">{product.location}</p>
+                        <p className="text-sm text-gray-800">{product.tiktokUrl}</p>
                         <p className="my-4">
                             <span className="mt-4 text-xl font-bold">{product.priceSol} SOL</span>
                         </p>

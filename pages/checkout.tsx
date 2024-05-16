@@ -43,8 +43,8 @@ export default function Checkout() {
     recipient: shopAddress,
     amount,
     reference,
-    label: "Helius Toys R Us",
-    message: "🦀 Thanks for your order! 🧸",
+    label: "SOLbiz",
+    message: "Thanks for your order! 🫶",
   }
 
   // Show the QR code

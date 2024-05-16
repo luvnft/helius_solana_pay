@@ -1,16 +1,20 @@
 export const products = [
     {
-      id: 'bear',
-      name: 'Mert Bear',
-      description: 'A stuffed and snuggly Mert Bear',
-      imageUrl: 'https://black-historic-harrier-585.mypinata.cloud/ipfs/QmZbv3bmXUYiqmf4k85t9H1sr2roedzLN4sLxPrqkgZgwU?_gl=1*1dsyikz*_ga*OTY0MTU1NTY1LjE3MDQ4ODA5NTA.*_ga_5RMPXG14TE*MTcwNDg4MDk0OS4xLjEuMTcwNDg4MTA3NC4yNC4wLjA.',
+      id: 'haircolorvet1',
+      name: ' Natural Hair Style ( Braids, twist, coils, etc)',
+      description: 'Discover the endless possibilities of natural hair styles with our collection of braids, twists, coils, and more. Achieve versatile looks that are low maintenance and protect your hair at the same time. Embrace your natural beauty and elevate your style with our high-quality products.',
+      location: 'https://what3words.com/unfunded.documents.touchy',
+      tiktokUrl: 'https://www.tiktok.com/@haircolorvet',
+      imageUrl: 'https://i.imgur.com/dzZ5CvD.jpeg',
       priceSol: 0.05,
     },
     {
-      id: 'crab',
-      name: 'Mert Crab',
-      description: 'A glass chewing Mert Crab',
-      imageUrl: 'https://black-historic-harrier-585.mypinata.cloud/ipfs/QmWQeDAT8RDVH4JbaZMngMEZb5rMAEbhtH9hAZHGzEJiwE?_gl=1*1giwok2*_ga*OTY0MTU1NTY1LjE3MDQ4ODA5NTA.*_ga_5RMPXG14TE*MTcwNDg4MDk0OS4xLjEuMTcwNDg4MTA4NC4xNC4wLjA.',
-      priceSol: 0.1,
+      id: 'haircolorvet2',
+      name: 'Permanent Color',
+      description: 'Pay a hair stylist in Solana $SOL money with no middleman fees',
+      location: 'https://what3words.com/unfunded.documents.touchy',
+      tiktokUrl: 'https://www.tiktok.com/@haircolorvet',
+      imageUrl: 'https://i.imgur.com/qrmo9f3.png',
+      priceSol: 1.00,
     }
   ]
