@@ -13,7 +13,7 @@ export default function Home() {
         </h3>
 
         <div className="mt-32 mb-32 flex flex-row text-center gap-4 justify-center">
-        <Products submitTarget="/checkout" enable={true} />
+        <Products submitTarget="/checkout" enabled={true} />
         </div>
       </div>
     </main>
