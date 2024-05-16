@@ -1,7 +1,7 @@
 export const products = [
     {
       id: 'haircolorvet1',
-      name: ' Natural Hair Style ( Braids, twist, coils, etc)',
+      name: ' Natural Hair Style',
       description: 'Discover the endless possibilities of natural hair styles with our collection of braids, twists, coils, and more. Achieve versatile looks that are low maintenance and protect your hair at the same time. Embrace your natural beauty and elevate your style with our high-quality products.',
       location: 'https://what3words.com/unfunded.documents.touchy',
       tiktokUrl: 'https://www.tiktok.com/@haircolorvet',
