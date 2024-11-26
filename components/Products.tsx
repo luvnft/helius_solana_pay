@@ -57,7 +57,7 @@ const Products = ({ products, formRef }: ProductsProps) => {
         }}
         disabled={!enabled}
       >
-        Checkout
+        Donate
       </button>
     </div>
   );

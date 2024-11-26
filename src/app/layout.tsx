@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'SOLbiz',
-  description: '$SOLpreneurs accept Solana $SOL money with no middleman fees. Checkout with a QR code.',
+  description: '$SOLpreneurs accept Solana $SOL money with no middleman fees. Donate with a QR code.',
 }
 
 export default function RootLayout({
