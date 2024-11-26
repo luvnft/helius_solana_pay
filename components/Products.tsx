@@ -1,6 +1,9 @@
+'use client'; // Add this line to mark the component as a Client Component
+
 import Image from 'next/image';
 import Link from 'next/link';
 import NumberInput from './NumberInput'; // Make sure to import NumberInput if it's a custom component
+import { useState } from 'react'; // Import useState
 
 interface Product {
   id: string;
@@ -18,6 +21,14 @@ interface ProductsProps {
 }
 
 const Products = ({ products, formRef }: ProductsProps) => {
+  const [enabled, setEnabled] = useState(false); // Define the enabled state
+
+  // You can implement your logic to enable/disable the button based on some condition
+  const handleInputChange = () => {
+    // Example logic to enable the button when at least one product quantity is selected
+    setEnabled(true); // Set this to true or false based on the conditions you want
+  };
+
   return (
     <div className="flex flex-col" style={{ alignItems: 'center' }}>
       <div className="flex flex-row" style={{ marginBottom: '60px', gap: '40px' }}>
@@ -55,7 +66,8 @@ const Products = ({ products, formRef }: ProductsProps) => {
           borderRadius: '10px',
           color: 'white',
         }}
-        disabled={!enabled}
+        disabled={!enabled} // Disable button based on enabled state
+        onClick={handleInputChange} // You can define a condition or action here
       >
         Donate
       </button>
