@@ -5,10 +5,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="flex flex-col">
         <h1 className="text-4xl font-mono font-bold text-center text-white">
-          $SOLbiz
+        🧙🏼‍♂️ @WizardofHahz
         </h1>
         <h3 className="text-2xl font-mono text-center text-white">
-          $SOLpreneurs accept Solana $SOL money with no middleman fees. Checkout with a QR code.
+          Web5 $SOLpreneurs accept Solana ($SOL) payments with zero middleman fees. Checkout easily using a QR code.
         </h3>
 
         <div className="mt-32 mb-32 flex flex-row text-center gap-4 justify-center">

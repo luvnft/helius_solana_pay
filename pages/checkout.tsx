@@ -7,7 +7,7 @@ import calculatePrice from "../lib/calculatePrice";
 
 export default function Checkout() {
   const router = useRouter()
-  const shopAddress = new PublicKey('7wK3jPMYjpZHZAghjersW6hBNMgi9VAGr75AhYRqR2n')
+  const shopAddress = new PublicKey('F5iFyvKbtXhX8BgHyC9tGAfgDKMagVBuygwsSTcUwQAh')
 
   // ref to a div where we'll show the QR code
   const qrRef = useRef<HTMLDivElement>(null)
