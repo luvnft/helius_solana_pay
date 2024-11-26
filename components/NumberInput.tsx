@@ -1,19 +1,21 @@
-import { useState } from "react"
+"use client"; // Add this line at the top of your file to mark it as a client component
+
+import { useState } from "react";
 
 interface Props {
-  name: string,
-  formRef: React.RefObject<HTMLFormElement>,
+  name: string;
+  formRef: React.RefObject<HTMLFormElement>;
 }
 
 export default function NumberInput({ name, formRef }: Props) {
-  const [number, setNumber] = useState(0)
+  const [number, setNumber] = useState(0);
 
   function decrement() {
-    setNumber(n => n > 0 ? n - 1 : 0)
+    setNumber((n) => (n > 0 ? n - 1 : 0));
   }
 
   function increment() {
-    setNumber(n => n + 1)
+    setNumber((n) => n + 1);
   }
 
   function handleKeyboard(e: React.KeyboardEvent<HTMLButtonElement>) {
@@ -32,9 +34,7 @@ export default function NumberInput({ name, formRef }: Props) {
   }
 
   return (
-    <div
-      className="w-36 border-2 border-gray-200 rounded-md flex flex-row items-center"
-    >
+    <div className="w-36 border-2 border-gray-200 rounded-md flex flex-row items-center">
       <button
         type="button"
         tabIndex={-1}
@@ -48,7 +48,7 @@ export default function NumberInput({ name, formRef }: Props) {
         type="number"
         name={name}
         value={number}
-        onChange={e => setNumber(Number(e.target.value))}
+        onChange={(e) => setNumber(Number(e.target.value))}
         min={0}
         className="w-12 border-none focus:ring-0 text-center bg-gray-200"
       />
@@ -62,5 +62,5 @@ export default function NumberInput({ name, formRef }: Props) {
         <span className="m-auto text-2xl font-thin">+</span>
       </button>
     </div>
-  )
+  );
 }
